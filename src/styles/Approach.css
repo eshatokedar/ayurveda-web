@@ -1,0 +1,93 @@
+.approach {
+  padding: 4rem 0;
+  background: #f9f9f9;
+  text-align: center;
+  }
+  
+  .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  }
+  
+  .approach-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #3A643B;
+  border-bottom: #24653385 3px solid;
+  display: inline-block;
+  }
+  .approach-subheading {
+  font-size: 1.25rem;
+  color: #6b6666;
+  margin-bottom: 2rem;
+  }
+  
+  .approach-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  }
+  
+  .approach-card {
+  flex: 1;
+  max-width: calc(25% - 1rem); 
+  background: #FFF7E2;
+  border-radius: 7%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .approach-card:hover {
+  transform: scale(1.05);
+  }
+  
+  .approach-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #007bff;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+  }
+  
+  .approach-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .approach-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+  .approach-card {
+    max-width: calc(33.333% - 1rem); 
+  }
+  }
+  @media (max-width: 480px) {
+  .approach-card {
+    max-width: 100%; 
+  }
+  }
+  @media (max-width: 1028px) {
+  .approach-card {
+    max-width: 100%;
+  }
+  
+  }

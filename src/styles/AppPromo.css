@@ -1,0 +1,126 @@
+.app-promotion {
+    padding: 4rem 2rem;
+    background: #fdf6e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .app-promotion-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .promotion-content {
+    flex: 1;
+    padding-left: 6rem;
+    padding-right: 4rem;
+  }
+  
+  .promotion-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3a643b;
+    margin-bottom: 1rem;
+  }
+  
+  .promotion-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .promotion-highlight {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 1.5rem;
+  }
+  
+  .promotion-cta {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .app-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .app-badge {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .promotion-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .mockup-phone {
+    width: 90%;
+    height: 30rem;
+    max-width: 450px;
+  }
+  
+  @media (max-width: 768px) {
+    .app-promotion-container {
+      flex-direction: column; 
+      align-items: center;
+      text-align: center;
+    }
+  
+    .app-promotion-container .text-content {
+      margin-bottom: 2rem; 
+    }
+  
+    .promotion-image img {
+      width: 60%; 
+      height: auto;
+    }
+  
+    .app-promotion-container .app-links {
+      display: flex;
+      flex-direction: column; 
+      gap: 1rem;
+      align-items: center;
+    }
+    .promotion-content{
+        padding: 0;
+    }
+  
+        .promotion-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #3a643b;
+            margin-bottom: 0.5rem;
+          }
+          
+          .promotion-description {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1;
+            margin-bottom: 1rem;
+          }
+          
+          .promotion-highlight {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 1rem;
+            line-height:1 ;
+          }
+          
+          .promotion-cta {
+            font-size: 1.75rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+          }
+      
+  }

@@ -1,0 +1,230 @@
+
+.discover {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .discover-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #3a643b;
+    border-bottom: #24653385 3px solid;
+    display: inline-block;
+  }
+
+  .discover-description{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #5c5c5d;
+  }
+  /* Circular Layout */
+  .circular-layout {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto; 
+  }
+  
+  .central-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .discover-card {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+  }
+  .discover-card-text{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .card-icon {
+    width: 80px;
+    height: 70px;
+    /* border: #246533 2px solid; */
+    /* border-radius: 50%;
+    background-color:#246533 ; */
+  }
+  
+  .card-1 {
+    top: 25%;
+    right: 60%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .card-2 {
+    top: 25%;
+    left: 60%;
+    transform: translate(50%, -50%);
+  }
+  
+  .card-3 {
+    top: 53%;
+    left: 60%;
+    transform: translate(50%, -50%);
+  }
+  
+  .card-4 {
+    top: 80%;
+    right: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card-5{
+    top: 53%;
+    right: 120%;
+    transform: translate(50%, -50%);
+  }
+
+  .card-6{
+    bottom: 20%;
+    left: 60%;
+    transform: translate(50%, 50%);
+    }
+  
+    @media (max-width: 569px) {
+      .circular-layout {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        gap: 1rem;
+      }
+    
+      .central-image {
+        position: static;
+        transform: none;
+        width: 90px;
+        height: 90px;
+        margin-bottom: 1.5rem;
+        flex-basis: 100%;
+      }
+    
+      .discover-card {
+        max-width: 48%; /* Ensures cards take full width */
+        height: auto;
+        border-radius: 10px;
+        margin: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 1rem;
+        padding: 1rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        word-wrap: break-word; /* Ensures long text breaks to fit within the card */
+        white-space: normal; /* Allows the text to wrap within available space */
+      }
+    
+      .card-icon {
+        width: 50px;
+        height: 50px;
+        margin: 0;
+      }
+    
+      .discover-card-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+      .card-title {
+        font-size: 1rem;
+        text-align: center;
+        margin: 0;
+      }
+    
+      .discover-description {
+        font-size: 0.95rem; /* Adjust font size for smaller screens */
+        color: #5c5c5d;
+        margin-top: 0.2rem;
+        margin-bottom: 0;
+      }
+    
+      .card-1,
+      .card-2,
+      .card-3,
+      .card-4,
+      .card-5,
+      .card-6 {
+        position: static;
+        transform: none;
+      }
+    }
+    
+
+      @media (max-width: 999px) {
+        .circular-layout {
+          display: flex;
+          flex-wrap: wrap; 
+          justify-content: center; 
+          align-items: center; 
+          width: 100%;
+          height: auto;
+          gap: 1rem; 
+        }
+      
+        .central-image {
+          position: static;
+          transform: none;
+          width: 90px;
+          height: 300px;
+          margin-bottom: 1.5rem;
+          flex-basis: 100%; 
+        }
+      
+        .discover-card {
+          width: 45%; 
+          height: auto;
+          border-radius: 10px;
+          margin: 0.5rem; 
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 1rem; 
+          padding: 1rem;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+      
+        .card-icon {
+          width: 50px;
+          height: 50px;
+          margin: 0;
+        }
+      
+        .card-title {
+          font-size: 1rem;
+          text-align: center;
+        }
+      
+        .card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
+          position: static;
+          transform: none;
+        }
+      }
+      

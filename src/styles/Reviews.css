@@ -1,0 +1,140 @@
+.customer-reviews {
+    padding: 4rem 0;
+    background: #f9f9f9;
+    text-align: center;
+    
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .reviews-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #3a643b;
+    border-bottom: #24653385 3px solid;
+    display: inline-block;
+  }
+  
+  .review-card {
+    background: #fff;
+    border-radius: 5%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 300px;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+    margin: 1rem;
+  }
+  
+  .review-card:hover {
+    transform: scale(1.05);
+  }
+
+.review-consultation {
+    background: #a0d9a1b3;
+    padding: 0.5rem;
+    font-weight: bold;
+    color: #3a643b;
+    margin-bottom: 0; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: inherit;
+}
+
+  .review-date {
+    position: absolute;
+    top: 5.3rem;
+    right: 1rem;
+    font-size: 0.8rem;
+    color: #999;
+  }
+  .review-name {
+    margin-top: 2.5rem;
+    margin-bottom: -0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3a643b;
+  }
+ 
+  .review-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .review-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .review-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  .review-city {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .review-rating {
+    margin-top: -0.5rem;
+    font-size: 1.5rem;
+    color: #ffc107;  
+  }
+  
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #3A643B;
+    background: #fff;
+    border-radius: 50%;
+    border: #3A643B solid 1px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.custom-arrow:hover {
+    background-color: #3A643B;
+    color: #fff;
+}
+
+.custom-arrow.prev {
+    left: -50px; 
+}
+
+.custom-arrow.next {
+    right: -50px; 
+}
+
+.slick-prev,
+.slick-next {
+    display: none !important; 
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 1.5rem; 
+}
+
+
