@@ -19,7 +19,6 @@
     margin-bottom: 1rem;
     color: #5c5c5d;
   }
-  /* Circular Layout */
   .circular-layout {
     position: relative;
     width: 500px;
@@ -41,7 +40,7 @@
   
   .discover-card {
     position: absolute;
-    width: 300px;
+    width: 350px;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -125,7 +124,7 @@
       }
     
       .discover-card {
-        max-width: 48%; /* Ensures cards take full width */
+        max-width: 48%; 
         height: auto;
         border-radius: 10px;
         margin: 0.5rem;
@@ -136,8 +135,8 @@
         gap: 1rem;
         padding: 1rem;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        word-wrap: break-word; /* Ensures long text breaks to fit within the card */
-        white-space: normal; /* Allows the text to wrap within available space */
+        word-wrap: break-word; 
+        white-space: normal; 
       }
     
       .card-icon {
@@ -159,7 +158,7 @@
       }
     
       .discover-description {
-        font-size: 0.95rem; /* Adjust font size for smaller screens */
+        font-size: 0.95rem; 
         color: #5c5c5d;
         margin-top: 0.2rem;
         margin-bottom: 0;
@@ -175,9 +174,44 @@
         transform: none;
       }
     }
+
+    @media (max-width: 485px) {
+      .card-desc {
+        font-size: 0.75rem; 
+      }
+      .card-icon img{
+        width: 30px;
+        height: 30px;
+      }
+      .card-title{
+        font-size: 0.95rem;
+      }
+      .discover-description{
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .card-icon img{
+        width: 25px;
+        height: 25px;
+      }
+      .card-title{
+        font-size: 0.75rem;
+      }
+      .card-desc{
+        font-size: 0.7rem;
+      }
+      .discover-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
     
 
-      @media (max-width: 999px) {
+      @media (max-width: 1160px) {
         .circular-layout {
           display: flex;
           flex-wrap: wrap; 

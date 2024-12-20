@@ -1,17 +1,16 @@
 .consultations {
   padding: 4rem 0;
   background: #FFF7E2;
+  text-align: center;
 }
 
 .consultations-heading {
   font-size: 2rem;
-  color: #246533;
   font-weight: bold;
+  margin-bottom: 2rem;
+  color: #3a643b;
   border-bottom: #24653385 3px solid;
-  display: flex;
-  justify-content: center;
-  width: fit-content;
-  margin: 0 auto 2rem auto; 
+  display: inline-block;
 }
 
 .container {
@@ -93,9 +92,5 @@
   .consultation-card {
     max-width: 100%;
     height: auto;
-  }
-  .consultations-heading {
-    font-size: 1.2rem;
-    
   }
 }

@@ -58,6 +58,20 @@
       border-radius: 7px;
     }
   }
+
+  @media(max-width:391px){
+    hero{
+      height: 80vh;
+      background: url('../assets/hero2-img.png') center/cover no-repeat;
+    }
+    .hero-content h1 {
+      font-size: 1.5rem;
+    }
+    .hero-content p {
+      margin: 1rem 0;
+      font-size: 0.95rem;
+    }
+  }
    
 
   

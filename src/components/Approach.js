@@ -24,18 +24,17 @@ const Approach = () => {
     {
       id: 3,
       title: "Treatment Planning",
-      description: "Implement the plan with precision and expertise.",
+      description: "The Ayurvedic practitioner creates a personalized treatment plan for you.",
       icon: digitthree,
     },
     {
       id: 4,
       title: "Maintenance",
-      description: "Monitor progress and provide ongoing support.",
+      description: "These visits allow for assessment of progress and adjustments to the treatment.",
       icon: digitfour,
     },
   ];
 
-  // Slider settings
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -44,15 +43,13 @@ const Approach = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 768, // Mobile and smaller
         settings: {
-          slidesToShow: 1, // Show 1 card
+          slidesToShow: 1, 
         },
       },
     ],
   };
 
-  // Media query for smaller screens (max-width: 768px)
   const isMobileOrTablet = useMediaQuery({ query: "(max-width: 1028px)" });
 
   return (
@@ -75,7 +72,6 @@ const Approach = () => {
             ))}
           </Slider>
         ) : (
-          // Render Grid on Larger Screens
           <div className="approach-grid">
             {approachData.map((item) => (
               <div key={item.id} className="approach-card">
