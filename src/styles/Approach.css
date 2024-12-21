@@ -4,7 +4,7 @@
   text-align: center;
   }
   
-  .container {
+  .approach-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
@@ -44,6 +44,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-top: 4px solid #3A643B;
   }
   
   .approach-card:hover {

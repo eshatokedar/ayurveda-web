@@ -6,9 +6,9 @@ import consultations3 from "./../assets/consultations3.jpg";
 
 const Consultations = () => {
   return (
-    <section className="consultations">
-        <h2 className="consultations-heading">What sets Ayurvedic consultations apart?</h2>
-      <div className="container">
+    <section className="consultation">
+        <h2 className="consultation-heading">What sets Ayurvedic consultations apart?</h2>
+      <div className="consultation-container">
         {/* First Row */}
         <div className="row">
           <div className="consultation-card"><h3></h3>

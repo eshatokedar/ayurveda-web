@@ -54,7 +54,7 @@ const Approach = () => {
 
   return (
     <section className="approach">
-      <div className="container">
+      <div className="approach-container">
         <h2 className="approach-heading">Our Ayurvedic Approach</h2>
         <p className="approach-subheading">
           We follow a systematic approach to provide the best solutions for your health.
