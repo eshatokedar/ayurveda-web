@@ -80,7 +80,7 @@ const CustomerReviews = () => {
 
 return (
     <section className="customer-reviews">
-        <div className="container">
+        <div className="reviews-container">
             <h2 className="reviews-heading">What Our Customers Say</h2>
             <Slider {...settings}>
                 {reviews.map((review) => (

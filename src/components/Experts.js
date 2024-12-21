@@ -68,7 +68,7 @@ const Experts = () => {
   
     return (
         <section className="experts">
-          <div className="container">
+          <div className="experts-container">
             <h2 className="experts-heading">Meet Our Ayurveda Experts</h2>
             <Slider {...settings}>
               {experts.map((expert) => (
