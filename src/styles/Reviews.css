@@ -7,6 +7,7 @@
   .reviews-container {
     margin: 0 auto;
     padding: 0 4rem;
+    height: auto;
   }
   
   .reviews-heading {
@@ -28,11 +29,15 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     transition: transform 0.3s ease;
-    height: auto;
+    height: 250px;
+    margin-bottom: 0.75rem;
+    justify-content: space-between;
+    overflow: hidden;
   }
   
   .review-card:hover {
     transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   }
 
 .review-consultation {
@@ -50,7 +55,7 @@
 
   .review-date {
     position: absolute;
-    top: 5.3rem;
+    top: 3.25rem;
     right: 1rem;
     font-size: 0.8rem;
     color: #999;
@@ -137,14 +142,43 @@
     gap: 1.5rem; 
 }
 
-@media screen and (max-width: 472px) {
+@media screen and (max-width: 480px) {
     .review-date{
-      top: 3rem;
+      top: 2.75rem;
       right: 0.5rem;
     }
-    .review-rating{
-      font-size: 1.2rem;
+    .review-card{
+      height: 270px;
+    }
+    .review-info{
+      margin-top: 1.25rem;
+    }
+    .review-avatar{
+      width: 50px;
+      height: 50px;
+      margin-top: 2rem;
     }
 }
 
+@media screen and (max-width:393px) {
+.review-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.review-avatar{
+  margin-bottom: -5rem;
+  
+}
+.review-card{
+  height: 300px;
+}
+.review-info{
+  margin-top: 2rem;
+}
+.review-date{
+  font-size: 0.65rem;
+}
+}
 

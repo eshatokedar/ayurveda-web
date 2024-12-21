@@ -11,6 +11,7 @@
   color: #3a643b;
   border-bottom: #24653385 3px solid;
   display: inline-block;
+  line-break: strict;
 }
 
 .consultation-container {
@@ -81,11 +82,17 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 490px) {
   .consultation-card {
     flex: 1 1 100%;
   }
   .consultation-card h3 {
     font-size: 1.5rem;
+  }
+}
+@media (max-width:592px){
+  .consultation-heading{
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }

@@ -27,7 +27,7 @@
   }
   .circular-layout {
     position: relative;
-    width: 500px;
+    width: 90%;
     height: 500px;
     margin: 0 auto; 
   }
@@ -88,7 +88,7 @@
   
   .card-3 {
     top: 53%;
-    left: 60%;
+    left: 55%;
     transform: translate(50%, -50%);
   }
   
@@ -100,7 +100,7 @@
 
   .card-5{
     top: 53%;
-    right: 120%;
+    right: 90%;
     transform: translate(50%, -50%);
   }
 
@@ -110,7 +110,66 @@
     transform: translate(50%, 50%);
     }
   
-    @media (max-width: 569px) {
+@media(max-width:495px){
+  .card-icon{
+    width: 60px;
+    height: 60px;
+  }
+  .card-title{
+    font-size: 1rem;
+  }
+  .card-desc{
+    font-size: 0.8rem;
+  }
+  .discover-description{
+    font-size: 2rem;
+    margin: 1.5rem;
+  }
+}
+  @media (max-width: 511px) {
+    .discover-container {
+      display: flex;
+      flex-wrap: wrap; /* Allow wrapping to next row */
+      justify-content: space-between; /* Space between cards */
+      gap: 1rem; /* Gap between rows and columns */
+      padding: 0; /* Remove extra padding */
+      margin: 0 auto; /* Center the content */
+  }
+
+  .discover-card {
+      width: calc(50% - 0.5rem); /* Fit two cards in a row, account for gap */
+      margin: 0; /* Remove unwanted margins */
+      height: auto; /* Let height adjust automatically */
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 1rem; /* Space inside the card */
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-icon img {
+      width: 30px;
+      height: 30px;
+  }
+
+  .card-title {
+      font-size: 0.95rem;
+  }
+
+  .card-desc {
+      font-size: 0.75rem;
+  }
+
+  .discover-description {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+  }
+  }
+
+    @media (max-width: 575px) {
       .circular-layout {
         display: flex;
         flex-wrap: wrap;
@@ -181,49 +240,9 @@
         transform: none;
       }
     }
-
-    @media (max-width: 485px) {
-      .card-desc {
-        font-size: 0.75rem; 
-      }
-      .card-icon img{
-        width: 30px;
-        height: 30px;
-      }
-      .card-title{
-        font-size: 0.95rem;
-      }
-      .discover-description{
-        font-size: 1rem;
-        margin-bottom: 1rem;
-      }
-    }
-
-    @media (max-width: 400px) {
-      .card-icon img{
-        width: 25px;
-        height: 25px;
-      }
-      .card-title{
-        font-size: 0.75rem;
-      }
-      .card-desc{
-        font-size: 0.7rem;
-      }
-      .discover-card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 90%;
-      }
-      .discover-container{
-        max-width: 1500px;
-      }
-    }
     
 
-      @media (max-width: 1160px) {
+      @media (max-width: 1260px) {
         .circular-layout {
           display: flex;
           flex-wrap: wrap; 
@@ -236,6 +255,7 @@
       
         .central-image {
           position: static;
+          object-fit: contain;
           transform: none;
           width: 90px;
           height: 300px;
@@ -271,6 +291,13 @@
         .card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
           position: static;
           transform: none;
+        }
+      }
+
+      @media (max-width:592px){
+        .discover-heading{
+          margin-left: 3rem;
+          margin-right: 3rem;
         }
       }
       

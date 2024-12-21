@@ -10,4 +10,55 @@
 .footer-content {
     color: #5c5c5d;
   }
+  .footer-contact, .footer-subscribe {
+    color: #5c5c5d;
+    margin-top: 2rem;
+    display: none;
+  }
+
+  .footer-social img{
+    border-radius: 50%;
+    display: none;
+    height: 50px;
+    width: 50px;
+  }
+  .footer-social{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
   
+  .footer-subscribe input {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
+  .footer-subscribe button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .footer-subscribe h3 {
+    color: #3A643B;
+  }
+
+  .footer-contact h3 {
+    color: #3A643B;
+  }
+
+  @media (max-width: 768px) {
+    .footer-contact, .footer-subscribe, .footer-social img {
+      display: block;
+    }
+    .footer{
+      text-align: left;
+      padding-left: 2rem;
+    }
+  }

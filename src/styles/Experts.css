@@ -29,10 +29,14 @@
     position: relative;
     text-align: center;
     transition: transform 0.3s ease;
+    overflow: hidden;
+    height: 400px;
+    margin-bottom: 0.75rem;
   }
   
   .experts-card:hover {
     transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   }
   
   .avatar-wrapper {
@@ -158,5 +162,18 @@
     display: flex !important;
     gap: 1.5rem; 
 }
+
+@media screen and (max-width: 410px) {
+.experts-card {
+    height: 430px;
+}
+}
+
+@media screen and (max-width:365px) {
+.experts-card {
+    height: 450px;
+}
+}
+
 
 
