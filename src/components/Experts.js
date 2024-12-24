@@ -3,7 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./../styles/Experts.css";
-import ExpertImg from "./../assets/expert.avif";
+import ExpertImg from "./../assets/expert.png";
+import Cap from "./../assets/gradcap.png";
+
 
 const Arrow = ({ onClick, direction }) => (
   <div className={`custom-arrow ${direction}`} onClick={onClick}>
@@ -13,33 +15,33 @@ const Arrow = ({ onClick, direction }) => (
 
 const Experts = () => {
     const experts = [
+      {
+        id: 1,
+        name: "Dr. Vaishali Sharma",
+        avatar: ExpertImg,
+        rating: 4.5,
+        consultation: "🔗 Skin Specialist",
+        qualification: "Ayurveda Practitioner (BAMS, MD)",
+        experience: "🎓 25 years of experience",
+        },
         {
-            id: 1,
-            name: "Dr. Vaishali Sharma",
-            avatar: ExpertImg,
-            rating: 4.5,
-            consultation: "Skin Specialist",
-            qualification: "Ayurveda Practitioner (BAMS, MD)",
-            experience: "25 years of experience",
-          },
-          {
-            id: 1,
-            name: "Dr. Vaishali Sharma",
-            avatar: ExpertImg,
-            rating: 4.5,
-            consultation: "Skin Specialist",
-            qualification: "Ayurveda Practitioner (BAMS, MD)",
-            experience: "25 years of experience",
-          },
-          {
-            id: 1,
-            name: "Dr. Vaishali Sharma",
-            avatar: ExpertImg,
-            rating: 4.5,
-            consultation: "Skin Specialist",
-            qualification: "Ayurveda Practitioner (BAMS, MD)",
-            experience: "25 years of experience",
-          },
+        id: 2,
+        name: "Dr. Anil Kumar",
+        avatar: ExpertImg,
+        rating: 4.7,
+        consultation: "🔗 General Physician",
+        qualification: "Ayurveda Practitioner (BAMS, MD)",
+        experience: "🎓 20 years of experience",
+        },
+        {
+        id: 3,
+        name: "Dr. Meera Singh",
+        avatar: ExpertImg,
+        rating: 4.8,
+        consultation: "🔗 Diet Specialist",
+        qualification: "Ayurveda Practitioner (BAMS, MD)",
+        experience: "🎓 15 years of experience",
+        },
     ];
   
     const settings = {

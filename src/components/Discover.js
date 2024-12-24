@@ -1,20 +1,20 @@
 import React from "react";
 import "./../styles/Discover.css";
 import CentralImage from "./../assets/meditation-img.png"; // Central image
-import Icon1 from "./../assets/icon1.avif";
-import Icon2 from "./../assets/icon2.avif";
-import Icon3 from "./../assets/icon3.jpg";
+import Icon1 from "./../assets/icon1.png";
+import Icon2 from "./../assets/icon2.png";
+import Icon3 from "./../assets/icon3.png";
 import Icon4 from "./../assets/icon4.png";
 import Icon5 from "./../assets/icon5.png";
 import Icon6 from "./../assets/icon6.png";
 
 const discoverData = [
-  { id: 1, icon: Icon1, title: "Personal Wellness",desc:"lorem ipsum dolor sit amet consectetur adipiscing elit."},
-  { id: 2, icon: Icon2, title: "Holistic Healing",desc:"lorem ipsum dolor sit amet consectetur adipiscing elit."},
-  { id: 3, icon: Icon3, title: "Focus on Prevention",desc:"lorem ipsum dolor sit amet consectetur adipiscing elit." },
-  { id: 4, icon: Icon4, title: "Natural Remedies",desc:"lorem ipsum dolor sit amet consectetur adipiscing elit."},
-  { id: 5, icon: Icon5, title: "Mind-Body Connection",desc:"lorem ipsum dolor sit amet consectetur adipiscing elit."},
-  { id: 6, icon: Icon6, title: "Boosting Immunity",desc:"lorem ipsum dolor sit amet consectetur adipiscing elit." }
+  { id: 1, icon: Icon1, title: "Personal Wellness",desc:"Treatments made just for you, based on your individual doshas." },
+  { id: 2, icon: Icon2, title: "Holistic Healing",desc:"Fix the root problem for long lasting health."},
+  { id: 3, icon: Icon3, title: "Focus on Prevention",desc:"Stop problems even before they start." },
+  { id: 4, icon: Icon4, title: "Natural Remedies",desc:"Using herbs and natural therapies for healing."},
+  { id: 5, icon: Icon5, title: "Mind-Body Connection",desc:"Keep your mind and body in sync for a happy life."},
+  { id: 6, icon: Icon6, title: "Boosting Immunity",desc:"Stay strong and healthy for life, not just for today." }
 ];
 
 const DiscoverComponent = () => {

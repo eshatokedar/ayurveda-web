@@ -36,9 +36,8 @@ const Features = () => {
         <div className="feature-grid">
           {featuresData.map((feature) => (
             <div key={feature.id} className="feature-card">
-              <img
-                src={feature.icon}
-                alt={feature.text}
+              <div
+                 style={{ backgroundImage: `url(${feature.icon})` }}
                 className="feature-icon"
               />
               <p className="feature-text">{feature.text}</p>

@@ -42,16 +42,6 @@ const CustomerReviews = () => {
       date: "2023-03-05",
       consultation: "Diet and Nutrition",
     },
-    {
-      id: 4,
-      name: "Robert Brown",
-      review: "I love the professionalism and care they provide.",
-      avatar: "https://via.placeholder.com/100",
-      rating: 4,
-      city: "Houston",
-      date: "2023-04-20",
-      consultation: "Mental Health",
-    },
   ];
 
   const settings = {

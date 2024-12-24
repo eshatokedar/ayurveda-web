@@ -60,5 +60,21 @@
     .footer{
       text-align: left;
       padding-left: 2rem;
+      padding-right: 5rem;
+    }
+  }
+  @media (max-width:444px){
+    .footer-social img{
+      height: 40px;
+      width: 40px;
+    }
+    .footer-social{
+      gap: 1rem;
+    }
+  }
+  @media(max-width: 310px){
+    .footer-social img{
+      height: 30px;
+      width: 30px;
     }
   }
