@@ -326,3 +326,9 @@
         margin-bottom: 0.25rem;
       }
     }
+    @media (max-width: 768px) {
+      .discover-heading{
+        border-bottom: none;
+        margin-bottom: 1rem;
+      }
+    }

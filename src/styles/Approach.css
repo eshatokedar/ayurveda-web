@@ -80,6 +80,10 @@
   .approach-card {
     max-width: calc(33.333% - 1rem); 
   }
+  .approach-heading{
+    border-bottom: none;
+    margin-bottom: 0.75rem;
+  }
   }
   @media (max-width: 480px) {
   .approach-card {

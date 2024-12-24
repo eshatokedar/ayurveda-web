@@ -4,8 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./../styles/Experts.css";
 import ExpertImg from "./../assets/expert.png";
-import Cap from "./../assets/gradcap.png";
-
 
 const Arrow = ({ onClick, direction }) => (
   <div className={`custom-arrow ${direction}`} onClick={onClick}>
@@ -26,7 +24,7 @@ const Experts = () => {
         },
         {
         id: 2,
-        name: "Dr. Anil Kumar",
+        name: "Dr. Vaishali Sharma",
         avatar: ExpertImg,
         rating: 4.7,
         consultation: "🔗 General Physician",
@@ -35,7 +33,7 @@ const Experts = () => {
         },
         {
         id: 3,
-        name: "Dr. Meera Singh",
+        name: "Dr. Vaishali Sharma",
         avatar: ExpertImg,
         rating: 4.8,
         consultation: "🔗 Diet Specialist",

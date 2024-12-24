@@ -223,5 +223,11 @@
     margin-top: 40px;
   }
 }
+@media (max-width: 768px) {
+  .experts-heading{
+    border-bottom: none;
+    margin-bottom: 1.5rem;
+  }
+}
 
 
