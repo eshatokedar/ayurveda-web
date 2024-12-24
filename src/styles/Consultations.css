@@ -82,7 +82,7 @@
   }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 537px) {
   .consultation-card {
     flex: 1 1 100%;
   }
@@ -92,8 +92,8 @@
 }
 @media (max-width:592px){
   .consultation-heading{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
 @media (max-width: 768px) {

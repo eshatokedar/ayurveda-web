@@ -69,7 +69,7 @@
     max-width: 450px;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 835px) {
     .app-promotion-container {
       flex-direction: column; 
       align-items: center;

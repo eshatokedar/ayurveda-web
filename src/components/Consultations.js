@@ -11,9 +11,9 @@ const Consultations = () => {
       <div className="consultation-container">
         {/* First Row */}
         <div className="row">
-          <div className="consultation-card"><h3>स्वस्थस्य स्वास्थ्य रक्षणं, आतुरस्य विकार प्रशमनं ।</h3>
+          <div className="consultation-card"><h3 style={{fontSize:"20px", paddingTop:"10px", marginLeft:"20px", marginRight:"20px", marginBottom:"-5px"}}>स्वस्थस्य स्वास्थ्य रक्षणं, आतुरस्य विकार प्रशमनं ।</h3>
           <br/>
-          <p>Meaning: The goal of Ayurveda is to maintain the health of a healthy person and to cure the disease of a diseased person. </p></div>
+          <p style={{padding:"3px"}}>Meaning: The goal of Ayurveda is to maintain the health of a healthy person and to cure the disease of a diseased person. </p></div>
           <div className="consultation-card image-card">
             <img alt="Center Image" src={consultations1} />
           </div>

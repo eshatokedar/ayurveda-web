@@ -33,18 +33,26 @@
     padding: 0.5rem;
     margin-top: 1rem;
     border: 1px solid #000000;
-    border-radius: 5px;
-  }
-  
-  .footer-subscribe button {
-    padding: 0.5rem 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 30px;
+    }
+    
+    .footer-subscribe button {
+    padding: 0.25rem 1rem;
     margin-top: 1rem;
     background-color: #000000;
     color: white;
+    height: 30px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
-  }
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    }
   .footer-subscribe h3 {
     color: #3A643B;
   }
