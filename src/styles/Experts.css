@@ -188,32 +188,27 @@
     height: 430px;
 }
 .book-session-btn{
-  margin-top: 62px;
+  margin-top: 65px;
 }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:400px) and (min-width: 396px) {
   .book-session-btn{
     height: 62px;
   }
 }
-@media screen and (max-width: 395px)and (min-width: 343px) {
-  .book-session-btn{
-    height: 60px;
-  }
+@media screen and (max-width: 395px)and (min-width: 341px) {
  .book-session-btn{
-  height:60px ;
-  margin-top: 40px;
+  height:60px;
+  margin-top: 42px;
  }
 }
-@media screen and (max-width: 342px) {
-  .experts-consultation{
-    margin-bottom: 15px;
+@media screen and (max-width: 340px) {
+  .experts-card {
+    height: 445px;
   }
-}
-@media screen and (max-width: 342px) {
   .book-session-btn{
-    height: 35px;
+    height: 50px;
     margin-top: 40px;
   }
 }
@@ -223,5 +218,4 @@
     margin-bottom: 1.5rem;
   }
 }
-
 
