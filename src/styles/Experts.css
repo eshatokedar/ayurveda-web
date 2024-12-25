@@ -116,7 +116,7 @@
     transition: background 0.3s;
     width: 100%;
     height: 15%;
-    margin-top: 65px;
+    margin-top: 67px;
   }
   
   .book-session-btn:hover {
@@ -188,7 +188,7 @@
     height: 430px;
 }
 .book-session-btn{
-  margin-top: 65px;
+  margin-top: 67px;
 }
 }
 
@@ -209,7 +209,7 @@
   }
   .book-session-btn{
     height: 50px;
-    margin-top: 40px;
+    margin-top: 42px;
   }
 }
 @media (max-width: 768px) {
