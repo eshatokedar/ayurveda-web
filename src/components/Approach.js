@@ -61,7 +61,7 @@ const Approach = () => {
         </p>
 
         {isMobileOrTablet ? (
-          // Render Carousel on Mobile and Tablet Screens
+          // Carousel on Mobile
           <Slider {...sliderSettings}>
             {approachData.map((item) => (
               <div key={item.id} className="approach-card">
