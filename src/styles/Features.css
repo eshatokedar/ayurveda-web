@@ -26,15 +26,16 @@
 }
 
 
-.feature-icon{
+.feature-icon {
   height: 65px;
   width: 80px;
   border-radius: 50%;
   border: #3A643B 2px solid;
   background-color: #ffffff;
-  background-size: 45px 45px; 
-  background-position: center; 
+  background-size: 45px 45px;
+  background-position: center;
   background-repeat: no-repeat;
+  box-sizing: border-box; 
 }
 
 .feature-text {
